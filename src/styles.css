@@ -1,0 +1,19 @@
+body {
+    background-color: gainsboro;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'Sacramento', cursive;
+    font-size: 85px;
+font-weight: bold;
+
+}
+
+p {
+    
+    font-family: 'Poiret One', cursive;
+    font-size: 35px;
+    font-weight: normal;
+}
