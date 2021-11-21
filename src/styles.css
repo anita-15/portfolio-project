@@ -1,19 +1,44 @@
+:root {
+    --branding-color: rgb(236, 181, 78);
+    --secondary-color: rgb(90,90,90);
+    --background-color: gainsboro;
+    --additional-color: rgb(88, 135, 235);
+    --heading-font-family: 'Sacramento', cursive;
+    --default-font-family: 'Poiret One', cursive;
+    --additional-serif-font: 'Playfair Display', serif;
+}
+
 body {
-    background-color: gainsboro;
-    text-align: center;
+    font-family: var(--default-font-family);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+
 }
 
 h1 {
-    color: white;
-    font-family: 'Sacramento', cursive;
-    font-size: 85px;
-font-weight: bold;
-
+    font-size: 164px;  
+    color: var(--branding-color);
+}
+p {
+    font-weight: normal;
 }
 
-p {
-    
-    font-family: 'Poiret One', cursive;
+.hero {
+    background-color: var(--background-color);
+    padding: 160px 0;
+    text-align: center;
+}
+
+.hero p {
     font-size: 35px;
-    font-weight: normal;
+}
+
+.btn-branding {
+    background-color: var(--secondary-color);
+    color: var(--branding-color);
+    font-size: 18px;
+    padding: 15px 30px;
 }
