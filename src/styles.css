@@ -70,7 +70,7 @@ p {
 
 @media (max-width: 900px) {
     h1 {
-        font-size: 60px;
+        font-size: 68px;
     }
     h2 {
         font-size: 38px;
@@ -81,5 +81,8 @@ p {
 .btn-branding-outline {
     display: block;
     margin: 0;
+}
+.hero {
+    padding: 80px 20px;
 }
 }
