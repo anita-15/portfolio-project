@@ -47,6 +47,21 @@ p {
     font-size: 35px;
 }
 
+.about-section h1 {
+    font-size: 64px;
+    line-height: 1.1;
+}
+
+
+.about-section h2 {
+    font-size: 48px;
+}
+
+.about-section p {
+    font-size: 28px;
+}
+
+
 .btn-branding {
     background-color: var(--secondary-color);
     color: var(--branding-color);
