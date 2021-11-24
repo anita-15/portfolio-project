@@ -15,7 +15,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font-family);
     font-weight: bold;
-
 }
 
 h1 {
@@ -37,10 +36,24 @@ p {
     font-weight: normal;
 }
 
+.anita {
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(236, 181, 78, 0.432);
+}
+.believe {
+    margin-bottom: 0;
+}
 .hero {
     background-color: var(--background-color);
-    padding: 160px 0;
+    padding: 160px 20px;
     text-align: center;
+}
+.shecodes {
+    color: var(--secondary-color);
+}
+
+.about-section {
+    padding: 160px 20px;
 }
 
 .hero p {
@@ -48,17 +61,22 @@ p {
 }
 
 .about-section h1 {
-    font-size: 64px;
+    font-size: 84px;
     line-height: 1.1;
 }
 
 
 .about-section h2 {
-    font-size: 48px;
+    font-size: 36px;
+    line-height: 2;
+}
+
+.about-section h3 {
+    font-size: 26px;
 }
 
 .about-section p {
-    font-size: 28px;
+    font-size: 22px;
 }
 
 
@@ -99,5 +117,9 @@ p {
 }
 .hero {
     padding: 80px 20px;
+}
+.about-section {
+    padding: 0 20px;
+    text-align: center;
 }
 }
