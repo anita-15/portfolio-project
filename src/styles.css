@@ -48,8 +48,12 @@ p {
     padding: 160px 20px;
     text-align: center;
 }
-.shecodes {
+.shecodes, .contact {
     color: var(--secondary-color);
+}
+
+.contact {
+    font-weight: bold;
 }
 
 .content-container {
