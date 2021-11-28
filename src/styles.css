@@ -105,6 +105,41 @@ p {
     font-weight: bold;
 }
 
+
+header {
+    font-size: 28px;
+}
+header, li {
+    font-weight: bold;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    font-size: 20px;
+    line-height: 44px;
+    list-style: none;
+margin-left: 15px;
+}
+
+nav a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover, nav li.active a {
+    color: var(--branding-color);
+}
+
 @media (max-width: 900px) {
     h1 {
         text-align: center;
@@ -120,6 +155,7 @@ p {
     text-align: center;
     margin-top: 16px;
 }
+
 .btn-branding, .btn-branding-outline {
     display: block;
     margin: 0 auto;
